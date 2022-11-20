@@ -1,0 +1,44 @@
+h1{
+    font-family: 'Courier New', Courier, monospace, bold;
+    color: red;
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+p{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.description_1{
+    color: blueviolet;
+}
+
+.description_2{
+    color: coral;
+}
+.promo-block{
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+
+}
+.other-block{
+    border: 2px solid gray;
+    padding: 20px;
+    width: 100%;
+}
+.inlined-block{
+    display: inline-block;
+}
+.blue-rounded-block{
+    border: 2px solid #15aaff;
+    border-radius: 5px;
+    border-bottom-right-radius: 20px;
+}
+/*если стиль укзана ниже основного то то заменяет основной*/
+.main-header{
+    color: green;
+}
